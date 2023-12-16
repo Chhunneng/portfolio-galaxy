@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    cursor: pointer;
+    font-family: "Monoton", cursive;
+    margin-left: min(40px);
+    font-size: 2rem;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin-right: min(40px);
+    li {
+      font-family: "Poppins", sans-serif;
+      display: inline-block;
+      padding: 0 20px;
+      cursor: pointer;
+
+      a{
+        display: flex;
+      }
+      a:link,
+      a:visited {
+        color: white;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: white;
+      }
+      a > img {
+        background-color: transparent;
+      }
+    }
+  }
+}
